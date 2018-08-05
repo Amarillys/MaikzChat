@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset='UTF-8'></meta>
+        <meta name="theme-color" content="#2a2a2a"/>
+        <title>Maikaze Note</title>
+        <link rel='stylesheet' href='style/flex.css'>
+        <script
+		  src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src='js/star.js'></script>
+        <script src='js/event.js'></script>
+    </head>
+	<script>
+		function key(keycode) { if (keycode == 13) $('#submit').click(); }
+	</script>
+    <body style='color:#dccccc'  onkeydown="key(event.keyCode)">
+        <main>
+            <div cldadass="title blue_bg">
+                <h1 onclick="document.location='#';" onmouseover="this.className='OnTitle'" onmouseout="this.className='LeftTitle'">
+                <u>MaikazeSekai</u>
+                </h1>
+            </div>
+            <div id='content' style='min-height: 500px'>
+                <input type='text' style='width:80px' id='name'></input><input type='text' id='note'></input>
+                <button id='submit'>
+                    Submit
+                </button>
+                <input type='text' style='width:60px' id='start'></input>
+                <input type='text' style='width:60px' id='limit'></input>
+                <button id='get'>
+                    Get
+                </button>
+                <div id='grid'>
+                    <table border='1' id='dataT'>
+
+                    </table>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

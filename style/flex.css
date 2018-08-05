@@ -1,0 +1,174 @@
+body {
+    background-image: url(../style/mbg.gif);    
+    background-origin: padding-box;
+    background-size: auto;
+    font-family: 'Source Han Sans','等距更纱黑体 SC', '微软雅黑', cambria, consolas, tahoma;
+    margin:0px;
+    min-height: 768px;
+    font-size:15pt;    
+}
+
+.main {
+	align-items:center;
+}
+
+nav {
+    background-image: url(../image/nav-bg.gif);    
+    background-origin: padding-box;
+    background-size: auto;
+}
+
+.HeaderBar {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #535353;
+    background-image: url(../image/nav-bg.gif);
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: #767676;
+    border-bottom-style: solid;
+    margin:0px;
+    font-size:15pt;
+    height:48px;
+}
+
+.HeaderBtn {
+    background-color: #477767;
+    border:2px;
+    border-style:solid;
+    border-color:#767676;
+    color: #eee;
+    float:left;
+    height:28px;
+    margin-left:15px;
+    padding:10px;
+    padding-bottom:8px;
+    text-align: center;    
+    text-shadow: silver 1px 1px 2px;
+    min-width:180px;
+    
+}
+
+div {
+  -webkit-box-shadow:0 0 15px rgba(0, 204, 204, .5);  
+  -moz-box-shadow:0 0 15px rgba(0, 204, 204, .5);  
+  box-shadow:0 0 15px rgba(0, 204, 204, .5);  
+}
+
+.MenuBtn ,.OutMenu {
+    background-color:#888;
+    border:2px;
+    border-style:solid;
+    border-color:#767676;
+    font-size:28px;
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:15px;
+    margin-bottom:8px;
+    padding:10px;
+    text-align:center;
+    text-shadow: silver 1px 1px 2px;
+    width:144px;
+    height:32px;
+}
+
+.OnMenu {
+    background-color:#aaa;
+    border:2px;
+    border-style:solid;
+    border-color:#767676;
+    color:#0f0;
+    font-size:28px;
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:15px;
+    margin-bottom:8px;
+    padding:10px;
+    position:relative;
+    text-align:center;
+    text-shadow: silver 1px 1px 2px;    
+    width:144px;
+    height:32px;        
+    box-shadow:0 0 45px rgba(0, 204, 204, .8);  
+}
+
+a {
+    color:#eee;
+    text-decoration: none;
+}
+
+main {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.main_content {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.left_panel {
+	display: flex;
+	flex-direction: column;
+}
+
+.title {	
+	margin: 20px auto;
+	color : #eee;
+	text-align：center;
+}
+
+.title h1 {
+	text-align: center;
+}
+
+.essay {
+	text-indent: 2em;
+	color: #cde;
+    text-shadow: silver 1px 1px 2px;
+	min-width:  822px;
+}
+
+.essay p, td, .essay img {
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+.diary_date {
+	text-align: right;
+	color: #eee;
+}
+
+.blue_bg {	
+	background: #12345678;
+}
+
+.credits {
+	text-align: right;
+}
+
+a {
+	text-decoration: underline;
+}
+
+img {
+	display: inline-block;
+	max-width: 88%;
+ 	height: auto;
+}
+
+.end {
+	padding-left: 30%;
+}
+
+.control, .visual {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+button {
+	background-color: #22222200;
+    color: #cccccc;
+}
